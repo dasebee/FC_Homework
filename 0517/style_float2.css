@@ -1,0 +1,46 @@
+@charset "utf-8";
+.wrapper{
+    width:400px;
+    height: 400px;
+    font-size: 12px;
+}
+.container-right{
+    float:right;
+    width: 100px;
+}
+.container-right div{
+    width: 100px;
+    height: 100px;
+}
+
+.container-top{
+    width:200px;
+    height: 200px;
+    float:right;
+}
+.container-top div{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.container-btm{
+    width: 200px;
+    float: right;
+}
+.container-btm div{
+    width: 100px;
+    height: 100px;
+}
+.btm-right{
+    float:right;
+}
+.btm-left{
+    float:left;
+}
+.container-left{
+     float: left;
+}
+.container-left div{
+    width:100px;
+    height: 100px;
+}
