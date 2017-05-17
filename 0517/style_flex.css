@@ -1,0 +1,26 @@
+@charset "utf-8";
+.wrapper{
+    width:400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+.wrapper div{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid dimgray;
+}
+.left{
+    order: -1;
+}
+.right{
+    order: 2;
+}
+.order{
+    order:1;
+}

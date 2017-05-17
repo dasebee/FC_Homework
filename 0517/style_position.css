@@ -1,0 +1,53 @@
+@charset "utf-8";
+.wrapper{
+    width:400px;
+    height: 400px;
+    position:relative;
+}
+.wrapper div{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid dimgray;
+    position:relative;
+    float:left;
+}
+.push-1{
+    left: 100px;
+}
+.push-2{
+    left: 200px;
+}
+.push-3{
+    left: 300px;
+}
+.pull-1{
+    right:100px;
+}
+.pull-2{
+    right:200px;
+}
+.pull-3{
+    right:300px;
+}
+.up-1{
+    bottom: 100px;
+}
+.up-2{
+    bottom: 200px;
+}
+.up-3{
+    bottom: 300px;
+}
+.down-1{
+    top: 100px;
+}
+.down-2{
+    top: 200px;
+}
+.down-3{
+    top: 300px;
+}
