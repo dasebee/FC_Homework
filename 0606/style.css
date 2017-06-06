@@ -1,0 +1,298 @@
+html {
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    font-size: 1.3rem;
+    color: #666;
+}
+
+h1{
+    margin-left: 184px;
+}
+table {
+    width: 1150px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table, .use-border, th {
+    border: 1px solid #ccc;
+}
+table, th{
+    border-top: none;
+}
+th{
+    height: 95px;
+}
+ td {
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+.row-1 .col-1{
+    width : 230px;
+}
+.row-1 .col-2{
+    width : 385px;
+}
+.row-1 .col-3{
+    width : 245px;
+}
+.row-1 .col-4{
+    width : 290px;
+}
+
+.row-2 .col-2{
+    width: 60px;
+}
+.row-2 .col-3{
+    width: 40px;
+}
+.row-2 .col-4{
+    width: 35px;
+}
+.row-2 .col-5{
+    width: 65px;
+}
+.row-2 .col-6{
+    width: 140px;
+}
+.row-2 .col-7{
+    width: 445px;
+}
+.row-2 .col-8{
+    width: 40px;
+}
+.row-2 .col-9{
+    width: 100px;
+}
+/* table head 영역*/
+.compose{
+    width: 185px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #1875f0;
+    color:#fff;
+    line-height: 50px;
+}
+
+/*icon들 */
+.heading-icons{
+    padding-left: 0;
+}
+.heading-icons li{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    margin-right: 16px;
+    background: url(./images/icons.png);
+}
+.heading-icons li:first-child{
+    margin-right: 35px;
+    background: none;
+}
+.heading-icons .refresh{
+    background-position-y: -95px;
+}
+.heading-icons .archive{
+    background-position-y: -118px;
+}
+.heading-icons .spam{
+    background-position-y: -142px;
+}
+.heading-icons .delete{
+    background-position-y: -71px;
+}
+.heading-icons .folder{
+    background-position-y: -166px;
+}
+.heading-icons .label{
+    background-position-y: -188px;
+}
+/* 검색 */
+[type="search"]{
+    width : 170px;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    color: #ccc;
+}
+button{
+    width: 0;
+    height: 25px;
+    padding:0 0 0 40px;
+    border: none;
+    box-sizing: border-box;
+    background: url(./images/icons.png) no-repeat;
+    background-position-y: -207px;
+    overflow: hidden;
+    
+}
+
+/*리스트 스타일*/
+.filter-list{
+    padding-top: 15px;
+    vertical-align: top;
+}
+.filter-list ul, .box-list ul{
+    padding-left: 30px;
+    list-style: none;
+}
+.filter-list li{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.filter-list span{
+    margin-right: 25px;
+}
+/*box list 아이콘*/
+.box-list{
+    padding-top: 30px;
+}
+.box-list div{
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    margin-right: 25px;
+    background: url(./images/icons.png) no-repeat;
+}
+.box-list li{
+    margin-bottom: 30px;
+}
+.box-list .draft{
+   background-position-y: -25px;
+}
+.box-list .sentmail{
+   background-position-y: -48px;
+}
+.box-list .trash{
+   background-position-y: -73px;
+}
+
+/*메일 체크*/
+td input {
+    margin-left: 27px;
+}
+[type="checkbox"]{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+/* circle style*/
+[class$="circle"]{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+.red-circle{
+    background: red;
+}
+.orange-circle{
+    background: orange;
+}
+.purple-circle{
+    background: rebeccapurple;
+}
+.green-circle{
+    background: green;
+}
+.aqua-circle{
+    background: aqua;
+}
+.blue-circle{
+    background: steelblue;
+}
+
+/*즐겨찾기*/
+.col-3 label{
+    display: inline-block;
+    width: 20px;
+    height: 0;
+    padding-top: 20px;
+    overflow: hidden;
+    background: url(./images/icons.png) no-repeat;
+    background-position-y: -296px;
+}
+.col-3 input:checked + label{
+    background-position-y: -321px;
+}
+/*avatar images*/
+.avatar{
+    width: 36px;
+    height:0;
+    padding-top: 36px;
+    overflow: hidden;
+    background: url(./images/avatars.png);
+}
+.row-3 .avatar{
+    background-position-y: -43px;
+}
+.row-4 .avatar{
+    background-position-y: -84px;
+}
+.row-6 .avatar{
+    background-position-x: -2px;
+    background-position-y: -127px;
+}
+.row-7 .avatar{
+    background-position-x: -2px;
+    background-position-y: -168px;
+}
+.row-8 .avatar{
+    background-position-x: -3px;
+    background-position-y: -210px;
+}
+.row-9 .avatar{
+    background-position-x: -51px;
+    background-position-y: 0px;
+}
+.row-10 .avatar{
+    background-position-x: -53px;
+    background-position-y: -43px;
+}
+.row-11 .avatar{
+    background-position-x: -51px;
+    background-position-y: -84px;
+}
+.row-12 .avatar{
+    background-position-x: -51px;
+    background-position-y: -127px;
+}
+.row-13 .avatar{
+    background-position-x: -51px;
+    background-position-y: -168px;
+}
+.row-14 .avatar{
+    background-position-x: -51px;
+    background-position-y: -210px;
+}
+
+/*첨부파일 아이콘*/
+.file{
+    width: 27px;
+    height: 0;
+    padding-top: 15px;
+    overflow: hidden;
+    background: url(./images/icons.png) no-repeat;
+    background-position-y: -345px;
+}
+
+.a11y-hidden {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0; }
+  .a11y-hidden.focusable:focus {
+    overflow: visible;
+    position: static;
+    clip: auto;
+    width: auto;
+    height: auto;
+    margin: 0; }

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table 만들기 과제</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mailbox CRM</h1>
+    <table>
+        <tr class="row-1">
+            <th class="col-1"><div class="compose">COMPOSE</div></th>
+            <th colspan="5" class="col-2">
+                <ul class="heading-icons">
+                    <li><label for="mailchk" class="a11y-hidden">메일체크</label><input id="mailchk" type="checkbox"></li>
+                    <li class="refresh"></li>
+                    <li class="archive"></li>
+                    <li class="spam"></li>
+                    <li class="delete"></li>
+                    <li class="folder"></li>
+                    <li class="label"></li>
+                </ul>
+            </th>
+            <th class="col-3"><input type="search" name="mail-search" value="Search"><button type="submit">검색</button></th>
+            <th colspan="3" class="col-4"> 1 - 10 of 100</th>
+        </tr>
+        <tr class="row-2">
+            <td rowspan="4" class="use-border box-list">
+                <ul>
+                    <li><div class="inbox"></div>Inbox</li>
+                    <li><div class="draft"></div>Draft</li>
+                    <li><div class="sentmail"></div>Sent Mail</li>
+                    <li><div class="trash"></div>Trash</li>
+                </ul>
+            </td>
+            <td class="col-2"><label for="mailchk1" class="a11y-hidden">메일체크</label><input id="mailchk1" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk1" type="checkbox" class="a11y-hidden"><label for="favorite-chk1">즐겨찾기</label></td>
+            <td class="col-4"><div class="orange-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Google Inc</td>
+            <td class="col-7" colspan="2">Adwords Keyword Research For Beginners</td>
+            <td class="col-8"><div class="file">첨부파일</div></td>
+            <td class="col-9">07:24 AM</td>
+        </tr>
+        <tr class="row-3">
+            <td class="col-2"><label for="mailchk2" class="a11y-hidden">메일체크</label><input id="mailchk2" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk2" type="checkbox" class="a11y-hidden" checked><label for="favorite-chk2">즐겨찾기</label></td>
+            <td class="col-4"><div class="red-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Apple</td>
+            <td class="col-7" colspan="2">Types Of Cookware Pots And Pans</td>
+            <td class="col-8"></td>
+            <td class="col-9">05:12 AM</td>
+        </tr>
+        <tr class="row-4">
+            <td class="col-2"><label for="mailchk3" class="a11y-hidden">메일체크</label><input id="mailchk3" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk3" type="checkbox" class="a11y-hidden"><label for="favorite-chk3">즐겨찾기</label></td>
+            <td class="col-4"><div class="purple-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Mathilda Jensen</td>
+            <td class="col-7" colspan="2">Telescopes 101</td>
+            <td class="col-8"><div class="file">첨부파일</div></td>
+            <td class="col-9">05:12 AM</td>
+        </tr>
+        <tr class="row-5">
+            <td class="col-2"><label for="mailchk4" class="a11y-hidden">메일체크</label><input id="mailchk4" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk4" type="checkbox" class="a11y-hidden"><label for="favorite-chk4">즐겨찾기</label></td>
+            <td class="col-4"><div class="red-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Google Inc</td>
+            <td class="col-7" colspan="2">What is The Big R For Marketing Your Business</td>
+            <td class="col-8"><div class="file">첨부파일</div></td>
+            <td class="col-9">05:12 AM</td>
+        </tr>
+        <tr class="row-6">
+            <td rowspan="9" class="use-border filter-list">
+                <ul>
+                    <li><span class="red-circle"></span>Project</li>
+                    <li><span class="aqua-circle"></span>Web</li>
+                    <li><span class="purple-circle"></span>Home</li>
+                    <li><span class="blue-circle"></span>Work</li>
+                </ul>
+            </td>
+            <td class="col-2"><label for="mailchk5" class="a11y-hidden">메일체크</label><input id="mailchk5" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk5" type="checkbox" class="a11y-hidden"><label for="favorite-chk5">즐겨찾기</label></td>
+            <td class="col-4"></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Yell Inc</td>
+            <td class="col-7" colspan="2">Gourmet Cooking For Pleasure</td>
+            <td class="col-8"><div class="file">첨부파일</div></td>
+            <td class="col-9">03:12 AM</td>
+        </tr>
+        <tr class="row-7">
+            <td class="col-2"><label for="mailchk6" class="a11y-hidden">메일체크</label><input id="mailchk6" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk6" type="checkbox" class="a11y-hidden"><label for="favorite-chk6">즐겨찾기</label></td>
+            <td class="col-4"><div class="orange-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Bill Neal</td>
+            <td class="col-7" colspan="2">The Glossary Of Telescopes</td>
+            <td class="col-8"><div class="file">첨부파일</div></td>
+            <td class="col-9">03:11 AM</td>
+        </tr>
+        <tr class="row-8">
+            <td class="col-2"><label for="mailchk7" class="a11y-hidden">메일체크</label><input id="mailchk7" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk7" type="checkbox" class="a11y-hidden"><label for="favorite-chk7">즐겨찾기</label></td>
+            <td class="col-4"></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Lois James</td>
+            <td class="col-7" colspan="2">The Night Sky</td>
+            <td class="col-8"></td>
+            <td class="col-9">03:07 AM</td>
+        </tr>
+        <tr class="row-9">
+            <td class="col-2"><label for="mailchk8" class="a11y-hidden">메일체크</label><input id="mailchk8" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk8" type="checkbox" class="a11y-hidden"><label for="favorite-chk8">즐겨찾기</label></td>
+            <td class="col-4"><div class="purple-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Earl Peterson</td>
+            <td class="col-7" colspan="2">Choose The Perfect Accommodations</td>
+            <td class="col-8"></td>
+            <td class="col-9">02:12 AM</td>
+        </tr>
+        <tr class="row-10">
+            <td class="col-2"><label for="mailchk9" class="a11y-hidden">메일체크</label><input id="mailchk9" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk9" type="checkbox" class="a11y-hidden" checked><label for="favorite-chk9">즐겨찾기</label></td>
+            <td class="col-4"></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Gussie Payne</td>
+            <td class="col-7" colspan="2">Comment On The Importance Of Human Life</td>
+            <td class="col-8"></td>
+            <td class="col-9">02:11 AM</td>
+        </tr>
+        <tr class="row-11">
+            <td class="col-2"><label for="mailchk10" class="a11y-hidden">메일체크</label><input id="mailchk10" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk10" type="checkbox" class="a11y-hidden"><label for="favorite-chk10">즐겨찾기</label></td>
+            <td class="col-4"><div class="orange-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Pearl Santiago</td>
+            <td class="col-7" colspan="2">Breast Lifts Improvement Without Implants</td>
+            <td class="col-8"><div class="file">첨부파일</div></td>
+            <td class="col-9">01:12 AM</td>
+        </tr>
+        <tr class="row-12">
+            <td class="col-2"><label for="mailchk11" class="a11y-hidden">메일체크</label><input id="mailchk11" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk11" type="checkbox" class="a11y-hidden"><label for="favorite-chk11">즐겨찾기</label></td>
+            <td class="col-4"><div class="green-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Nelle Chandler</td>
+            <td class="col-7" colspan="2">Live Poker How To Win Tourmament Games</td>
+            <td class="col-8"></td>
+            <td class="col-9">01:09 AM</td>
+        </tr>
+        <tr class="row-13">
+            <td class="col-2"><label for="mailchk12" class="a11y-hidden">메일체크</label><input id="mailchk12" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk12" type="checkbox" class="a11y-hidden"><label for="favorite-chk12">즐겨찾기</label></td>
+            <td class="col-4"><div class="orange-circle"></div></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Bryan Quinn</td>
+            <td class="col-7" colspan="2">Cheap Romantic Vacations</td>
+            <td class="col-8"><div class="file">첨부파일</div></td>
+            <td class="col-9">11:01AM</td>
+        </tr>
+        <tr class="row-14">
+            <td class="col-2"><label for="mailchk13" class="a11y-hidden">메일체크</label><input id="mailchk13" type="checkbox"></td>
+            <td class="col-3"><input id="favorite-chk13" type="checkbox" class="a11y-hidden"><label for="favorite-chk13">즐겨찾기</label></td>
+            <td class="col-4"></td>
+            <td class="col-5"><div class="avatar">Avatar</div></td>
+            <td class="col-6">Irene Manning</td>
+            <td class="col-7" colspan="2">Breast Lifts Improvement Without Implants</td>
+            <td class="col-8"></td>
+            <td class="col-9">00:19PM</td>
+        </tr>
+    </table>
+</body>
+</html>
